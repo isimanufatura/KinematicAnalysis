@@ -50,6 +50,7 @@ def euler2mat(roll, pitch, yaw, M):
 def ler_thetas(in_theta1,in_theta2,in_theta3,in_theta4):
 
 
+
     arquivo1 = "./Steps/junta1.tab"
     arquivo2 = "./Steps/junta2.tab"
     arquivo3 = "./Steps/junta3.tab"
