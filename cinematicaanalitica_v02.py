@@ -46,7 +46,7 @@ def euler2mat(roll, pitch, yaw, M):
     
     return np.dot(R,M)
 
-############ CINEMÁTICA GERAL ############
+############ CINEMÁTICA GERAL #############
 def ler_thetas(in_theta1,in_theta2,in_theta3,in_theta4):
 
 
