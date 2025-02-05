@@ -12,3 +12,7 @@
 ![Image](https://github.com/user-attachments/assets/e868ca45-f40d-44e8-8955-5514e6d0603f)
 
 Repository in construction 🚧🔨👷‍♂️
+
+Configuração do Robô tipo Inchworm
+
+![Image](https://github.com/user-attachments/assets/c6f5bff0-4ca7-4764-b45a-28abd2daa874)
