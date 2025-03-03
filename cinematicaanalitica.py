@@ -202,17 +202,11 @@ if __name__ == '__main__':
         DH_alpha = [0,0,0,0]
         DH_d = [0,0,0,0]
  
-        STEP1PATA2 = "./Steps/step1/XeYPata2.tab"
-        STEP2PATA2 = "./Steps/step2/XeYPata2.tab"
-        STEP1PATA1 = "./Steps/step1/XeYPata1.tab"
-        STEP2PATA1 = "./Steps/step2/XeYPata1.tab"
+
         STEPSPATA1 = "./Steps/XeYPata1.tab"
         STEPSPATA2 = "./Steps/XeYPata2.tab"
         # Lendo os dados de posição do arquivo do ADAMs
-        Step1Pata2 = read(STEP1PATA2, 1)
-        Step2Pata2 = read(STEP2PATA2,1)
-        Step1Pata1 = read(STEP1PATA1, 1)
-        Step2Pata1 = read(STEP2PATA1,1)
+
         StepsPata1 = read(STEPSPATA1,1)
         StepsPata2 = read(STEPSPATA2,1)
         timeread  = StepsPata1["Time      "]
@@ -264,18 +258,10 @@ if __name__ == '__main__':
         #PLOT
         # Extraindo as posições X, Y e Z do arquivo do ADAMs
         adams_time = StepsPata1["Time      "]
-        StepsX_Pata1 = StepsPata1[".MARKER_61.Translational_Displacement.X"]
-        StepsY_Pata1 = StepsPata1[".MARKER_61.Translational_Displacement.Y"]
-        StepsX_Pata2 = StepsPata2[".MARKER_65.Translational_Displacement.X"]
-        StepsY_Pata2 = StepsPata2[".MARKER_65.Translational_Displacement.Y"]
-        adams_Pata2_x = Step1Pata2[".MARKER_65.Translational_Displacement.X"]
-        adams_Pata2_x2 = Step2Pata2[".MARKER_50.Translational_Displacement.X"]
-        adams_Pata2_y = Step1Pata2[".MARKER_65.Translational_Displacement.Y"]
-        adams_Pata2_y2 = Step2Pata2[".MARKER_50.Translational_Displacement.Y"]
-        adams_Pata1_x = Step1Pata1[".MARKER_61.Translational_Displacement.X"]
-        adams_Pata1_x2 = Step2Pata1[".MARKER_39.Translational_Displacement.X"]
-        adams_Pata1_y = Step1Pata1[".MARKER_61.Translational_Displacement.Y"]
-        adams_Pata1_y2 = Step2Pata1[".MARKER_39.Translational_Displacement.Y"]       
+        StepsX_Pata1 = StepsPata1["X"]
+        StepsY_Pata1 = StepsPata1["Y"]
+        StepsX_Pata2 = StepsPata2["X"]
+        StepsY_Pata2 = StepsPata2["Y"]    
         reset_indices = StepsPata1[StepsPata1["Time      "].diff() < 0].index
         reset_indices[:10]
 

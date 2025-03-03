@@ -16,3 +16,7 @@ Repository in construction 🚧🔨👷‍♂️
 Configuração do Robô tipo Inchworm
 
 ![Image](https://github.com/user-attachments/assets/c6f5bff0-4ca7-4764-b45a-28abd2daa874)
+
+Final comparison Analitycal x ADAMS
+
+![Image](https://github.com/user-attachments/assets/c6f5bff0-4ca7-4764-b45a-28abd2daa874)
