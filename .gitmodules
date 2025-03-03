@@ -1,0 +1,6 @@
+[submodule "1Step"]
+	path = 1Step
+	url = https://github.com/BrennoDom/AnaliseCinematica.git
+[submodule "2Steps"]
+	path = 2Steps
+	url = https://github.com/BrennoDom/AnaliseCinematica.git
