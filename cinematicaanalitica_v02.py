@@ -254,11 +254,11 @@ if __name__ == '__main__':
         DH_d = [0,0,0,0]
         thetas = ler_thetas(53.97,-45.84,-66.52,-31.61)
 
-        STEP1PATA2 = "./teste2/step1/XeYPata2.tab"
-        STEP2PATA2 = "./teste2/step2/XeYPata2.tab"
-        STEP1PATA1 = "./teste2/step1/XeYPata1.tab"
-        STEP2PATA1 = "./teste2/step2/XeYPata1.tab"
-        STEPSPATA1 = "./teste2/Steps/XeYPata1.tab"
+        STEP1PATA2 = "./Steps/XeYPata2.tab"
+        STEP2PATA2 = "./Steps/XeYPata2.tab"
+        STEP1PATA1 = "./Steps/XeYPata1.tab"
+        STEP2PATA1 = "./Steps/XeYPata1.tab"
+        STEPSPATA1 = "./Steps/XeYPata1.tab"
         # Lendo os dados de posição do arquivo do ADAMs
         Step1Pata2 = read(STEP1PATA2, 1)
         Step2Pata2 = read(STEP2PATA2,1)
@@ -362,13 +362,13 @@ if __name__ == '__main__':
         # Extraindo as posições X, Y e Z do arquivo do ADAMs
         adams_time = Step1Pata2["Time      "]
         adams_Pata2_x = Step1Pata2[".MARKER_65.Translational_Displacement.X"]
-        adams_Pata2_x2 = Step2Pata2[".MARKER_50.Translational_Displacement.X"]
+        adams_Pata2_x2 = Step2Pata2[".MARKER_65.Translational_Displacement.X"]
         adams_Pata2_y = Step1Pata2[".MARKER_65.Translational_Displacement.Y"]
-        adams_Pata2_y2 = Step2Pata2[".MARKER_50.Translational_Displacement.Y"]
+        adams_Pata2_y2 = Step2Pata2[".MARKER_65.Translational_Displacement.Y"]
         adams_Pata1_x = Step1Pata1[".MARKER_61.Translational_Displacement.X"]
-        adams_Pata1_x2 = Step2Pata1[".MARKER_39.Translational_Displacement.X"]
+        adams_Pata1_x2 = Step2Pata1[".MARKER_61.Translational_Displacement.X"]
         adams_Pata1_y = Step1Pata1[".MARKER_61.Translational_Displacement.Y"]
-        adams_Pata1_y2 = Step2Pata1[".MARKER_39.Translational_Displacement.Y"]       
+        adams_Pata1_y2 = Step2Pata1[".MARKER_61.Translational_Displacement.Y"]       
         
         last_time_step = (adams_time.to_numpy()[len(adams_time)-1])
         adams_time_2 = adams_time + last_time_step
