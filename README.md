@@ -31,15 +31,24 @@ The project includes a detailed comparison between analytical methods and ADAMS 
   <img src="https://github.com/user-attachments/assets/c6f5bff0-4ca7-4764-b45a-28abd2daa874" alt="Final Comparison Analytical vs. ADAMS" />
 </div>
 
-### Steps and Graphs
+#### Example 1: 4 axis Robot
+
+<div align="center">
+  <img src="Result/Move.gif" alt="Movement GIF" />
+</div>
+
+## Graphs
 
 The repository contains graphs to illustrate the analysis process, including the results from both analytical and ADAMS simulations.
 
-### 2 Steps
-
+### 1-2 Step
 <div align="center">
-  <img src="Result/Graph_ADAMS_PROG.png" alt="Steps and Graphs" />
+  <img src="Result/Graph_ADAMS_PROG_STEP1.png" alt="Graph Step 1-2" />
 </div>
 
+### 1-2-3-4 Step
+<div align="center">
+  <img src="Result/Graph_ADAMS_PROG_STEP2.png" alt="Graph Step 1-4" />
+</div>
 
 ---
