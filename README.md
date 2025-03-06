@@ -35,11 +35,13 @@ The project includes a detailed comparison between analytical methods and ADAMS 
 
 The repository contains graphs to illustrate the analysis process, including the results from both analytical and ADAMS simulations.
 
-### 2 Steps
-
+### 1º Step
 <div align="center">
-  <img src="Result/Graph_ADAMS_PROG.png" alt="Steps and Graphs" />
+  <img src="Result/Graph_ADAMS_PROG_STEP1.png" alt="Steps and Graphs" />
 </div>
-
+### 2º Step
+<div align="center">
+  <img src="Result/Graph_ADAMS_PROG_STEP2.png" alt="Steps and Graphs" />
+</div>
 
 ---
